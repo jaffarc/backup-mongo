@@ -35,7 +35,6 @@ This structure was created for js-modules according to some standards of pattern
         ```
 
 2. 2. if you user authenticate defaul set server settings..
-
         ```
         SASL=false
         HOST="192.168.0.1" 
@@ -44,10 +43,8 @@ This structure was created for js-modules according to some standards of pattern
         PASSWORD="'1234'"
         ```
 
-
 ##References:  
 	url: https://docs.mongodb.com/manual/reference/connection-string/ 
-	Book: Regular Expressions Cookbook 1st Edition.    
-
+	
 
 Just have fun. Go ahead and edit the code or add new files. This was a study!
