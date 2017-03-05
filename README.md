@@ -45,7 +45,11 @@ This structure was created for js-modules according to some standards of pattern
         PASSWORD="'1234'"
         ```
 
-##References:  
+##Restore
+        
+        mongorestore --host $HOST -u $USERNAME -p $PASSWORD --port $PORT --drop -d namedb backup/mongodb-date/folder_nameDB/
+
+##References: 
 	url: https://docs.mongodb.com/manual/reference/connection-string/ 
 	
 
