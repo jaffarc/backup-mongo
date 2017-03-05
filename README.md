@@ -46,7 +46,7 @@ This structure was created for js-modules according to some standards of pattern
         ```
 
 ##Restore
-        
+
 mongorestore --host $HOST -u $USERNAME -p $PASSWORD --port $PORT --drop -d namedb backup/mongodb-date/folder_nameDB/
 
 ##References: 
