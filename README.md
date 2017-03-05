@@ -25,7 +25,8 @@ This structure was created for js-modules according to some standards of pattern
         PASSWORD="''"
         ```
 
-2. 1. if you user authenticate SASL set server settings..
+2. if you authenticate SASL set server settings..
+  
         ```
         SASL=true
         HOST="192.168.0.1" 
@@ -34,7 +35,8 @@ This structure was created for js-modules according to some standards of pattern
         PASSWORD="'1234'"
         ```
 
-2. 2. if you user authenticate defaul set server settings..
+2. if you authenticate defaul set server settings..
+  
         ```
         SASL=false
         HOST="192.168.0.1" 
