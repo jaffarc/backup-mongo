@@ -42,7 +42,7 @@ if [ -d "$BACKUP_PATH" ]; then
 	
 	# run dump on mongoDB
 	if [ "$SASL" = true   -a "$PASSWORD" != "" ]; then 
-		$MONGO_DUMP_BIN_PATH -h $HOST --port $PORT -d viamaker -u viamakerRootProd -p $PASSWORD  -o $TMP_BACKUP_DIR >> /dev/null
+		$MONGO_DUMP_BIN_PATH -h $HOST --port $PORT -d viamaker -u $USERNAME -p $PASSWORD  -o $TMP_BACKUP_DIR >> /dev/null
 	else	
 
 		$MONGO_DUMP_BIN_PATH --host $HOST:$PORT -u $USERNAME -p $PASSWORD --out $TMP_BACKUP_DIR >> /dev/null
